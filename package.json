@@ -1,6 +1,6 @@
 {
 	"name": "react-hook-usemutable",
-	"version": "0.5.0",
+	"version": "0.5.1",
 	"description": "Utilities to use the mutableJS library with React",
 	"keywords": [
 		"react",
@@ -22,11 +22,11 @@
 		"dist"
 	],
 	"main": "./dist/index.umd.js",
-	"module": "./dist/index.es.js",
+	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/index.es.js",
+			"import": "./dist/index.mjs",
 			"require": "./dist/index.umd.js"
 		}
 	},
