@@ -1,22 +1,22 @@
-# react-useMutable
+# react-hook-useMutable
 
 A utility to simplify the use of the [@mutableJS/core](https://www.npmjs.com/package/@mutablejs/core) reactivity with React.
 
-[![npm](https://img.shields.io/npm/dt/react-usemutable?style=for-the-badge)](https://www.npmjs.com/package/react-usemutable) ![GitHub Repo stars](https://img.shields.io/github/stars/react-useMutable?label=GitHub%20Stars&style=for-the-badge) [![GitHub](https://img.shields.io/github/license/react-useMutable?color=blue&style=for-the-badge)](https://github.com/react-useMutable/blob/master/LICENSE)
-![GitHub last commit](https://img.shields.io/github/last-commit/react-useMutable?style=for-the-badge) [![Issues](https://img.shields.io/github/issues/react-useMutable?style=for-the-badge)](https://github.com/react-useMutable/issues)
+[![npm](https://img.shields.io/npm/dt/react-hook-usemutable?style=for-the-badge)](https://www.npmjs.com/package/react-hook-usemutable) ![GitHub Repo stars](https://img.shields.io/github/stars/react-hook-useMutable?label=GitHub%20Stars&style=for-the-badge) [![GitHub](https://img.shields.io/github/license/react-hook-useMutable?color=blue&style=for-the-badge)](https://github.com/react-hook-useMutable/blob/master/LICENSE)
+![GitHub last commit](https://img.shields.io/github/last-commit/react-hook-useMutable?style=for-the-badge) [![Issues](https://img.shields.io/github/issues/react-hook-useMutable?style=for-the-badge)](https://github.com/react-hook-useMutable/issues)
 
 ## Installation
 
 Install with **npm**:
 
 ```bash
-    npm install @mutablejs/core react-usemutable
+    npm install @mutablejs/core react-hook-usemutable
 ```
 
 Install with **yarn**:
 
 ```bash
-    yarn add @mutablejs/core react-usemutable
+    yarn add @mutablejs/core react-hook-usemutable
 ```
 
 Keep in mind the repository depends on the `@mutablejs/core` package.
@@ -27,7 +27,7 @@ Keep in mind the repository depends on the `@mutablejs/core` package.
 
 ```typescript
 import { mutable } from '@mutablejs/core';
-import useMutable from 'react-usemutable';
+import useMutable from 'react-hook-usemutable';
 
 const magicValue = mutable(0);
 
@@ -47,7 +47,7 @@ function ShowSomeMagic() {
 
 ```typescript
 import { mutable } from '@mutablejs/core';
-import { createUseMutable } from 'react-usemutable';
+import { createUseMutable } from 'react-hook-usemutable';
 
 const magicValue = mutable(0);
 

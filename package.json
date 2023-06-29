@@ -1,5 +1,5 @@
 {
-	"name": "react-usemutable",
+	"name": "react-hook-usemutable",
 	"version": "0.5.0",
 	"description": "Utilities to use the mutableJS library with React",
 	"keywords": [
@@ -10,6 +10,14 @@
 		"mutable",
 		"reactivity"
 	],
+	"homepage": "https://github.com/donnikitos/react-hook-useMutable#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/donnikitos/react-hook-useMutable.git"
+	},
+	"bugs": {
+		"url": "https://github.com/donnikitos/react-hook-useMutable/issues"
+	},
 	"files": [
 		"dist"
 	],
