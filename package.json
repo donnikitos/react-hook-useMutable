@@ -1,0 +1,46 @@
+{
+	"name": "react-usemutable",
+	"version": "0.5.0",
+	"description": "Utilities to use the mutableJS library with React",
+	"keywords": [
+		"react",
+		"mutableJS",
+		"mutables",
+		"signals",
+		"mutable",
+		"reactivity"
+	],
+	"files": [
+		"dist"
+	],
+	"main": "./dist/index.umd.js",
+	"module": "./dist/index.es.js",
+	"types": "./dist/index.d.ts",
+	"exports": {
+		".": {
+			"import": "./dist/index.es.js",
+			"require": "./dist/index.umd.js"
+		}
+	},
+	"scripts": {
+		"start": "npx vite",
+		"build": "npx vite build && npx tsc --emitDeclarationOnly",
+		"prepack": "npm run build"
+	},
+	"author": "Nikita 'donnikitos' Nitichevski <me@donnikitos.com> (https://donnikitos.com/)",
+	"license": "MIT",
+	"devDependencies": {
+		"@mutablejs/core": "^0.2.0",
+		"@mutablejs/dom": "^0.3.1",
+		"@types/node": "^20.3.2",
+		"@types/react": "^18.2.14",
+		"typescript": "^5.1.6",
+		"vite": "^4.3.9"
+	},
+	"peerDependencies": {
+		"@mutablejs/core": "^0.2.0",
+		"@mutablejs/dom": "^0.3.1",
+		"react": "^18.2.0"
+	},
+	"dependencies": {}
+}
