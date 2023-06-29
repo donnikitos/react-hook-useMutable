@@ -1,9 +1,9 @@
 # react-useMutable
 
-A utility to simplify the use of the [@mutableJS/core](https://www.npmjs.com/package/@mutablejs/core) reactivity.
+A utility to simplify the use of the [@mutableJS/core](https://www.npmjs.com/package/@mutablejs/core) reactivity with React.
 
-[![npm](https://img.shields.io/npm/dt/mjs-router?style=for-the-badge)](https://www.npmjs.com/package/mjs-router) ![GitHub Repo stars](https://img.shields.io/github/stars/mjs-router?label=GitHub%20Stars&style=for-the-badge) [![GitHub](https://img.shields.io/github/license/mjs-router?color=blue&style=for-the-badge)](https://github.com/mjs-router/blob/master/LICENSE)
-![GitHub last commit](https://img.shields.io/github/last-commit/mjs-router?style=for-the-badge) [![Issues](https://img.shields.io/github/issues/mjs-router?style=for-the-badge)](https://github.com/mjs-router/issues)
+[![npm](https://img.shields.io/npm/dt/react-usemutable?style=for-the-badge)](https://www.npmjs.com/package/react-usemutable) ![GitHub Repo stars](https://img.shields.io/github/stars/react-useMutable?label=GitHub%20Stars&style=for-the-badge) [![GitHub](https://img.shields.io/github/license/react-useMutable?color=blue&style=for-the-badge)](https://github.com/react-useMutable/blob/master/LICENSE)
+![GitHub last commit](https://img.shields.io/github/last-commit/react-useMutable?style=for-the-badge) [![Issues](https://img.shields.io/github/issues/react-useMutable?style=for-the-badge)](https://github.com/react-useMutable/issues)
 
 ## Installation
 
