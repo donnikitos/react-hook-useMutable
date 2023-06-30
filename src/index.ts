@@ -5,7 +5,7 @@ export function createUseMutable<T>(mutable: Mutable<T>) {
 	return () => useMutable(mutable);
 }
 
-function useMutable<T>(mutable: Mutable<T>) {
+export function useMutable<T>(mutable: Mutable<T>) {
 	const [value, setValue] = useState<T>(mutable.value);
 
 	useEffect(() => {
