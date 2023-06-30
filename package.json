@@ -1,6 +1,6 @@
 {
 	"name": "react-hook-usemutable",
-	"version": "0.5.3",
+	"version": "0.5.4",
 	"description": "Utilities to use the mutableJS library with React",
 	"keywords": [
 		"react",
@@ -39,7 +39,6 @@
 	"license": "MIT",
 	"devDependencies": {
 		"@mutablejs/core": "^0.2.0",
-		"@mutablejs/dom": "^0.3.1",
 		"@types/node": "^20.3.2",
 		"@types/react": "^18.2.14",
 		"typescript": "^5.1.6",
@@ -47,7 +46,6 @@
 	},
 	"peerDependencies": {
 		"@mutablejs/core": "^0.2.0",
-		"@mutablejs/dom": "^0.3.1",
 		"react": "^18.2.0"
 	},
 	"dependencies": {}

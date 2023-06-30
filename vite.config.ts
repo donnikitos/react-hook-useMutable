@@ -7,11 +7,11 @@ export default defineConfig({
 			entry: path.resolve(__dirname, 'src/index.ts'),
 			fileName: 'index',
 			formats: ['umd', 'es'],
-			name: 'mjs-router',
+			name: 'react-hook-usemutable',
 		},
 		minify: false,
 		rollupOptions: {
-			external: ['@mutablejs/core'],
+			external: ['@mutablejs/core', 'react'],
 		},
 	},
 });
