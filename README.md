@@ -1,9 +1,9 @@
 # react-hook-useMutable
 
-A utility to simplify the use of the [@mutableJS/core](https://www.npmjs.com/package/@mutablejs/core) reactivity with React.
+[![npm](https://img.shields.io/npm/dt/react-hook-usemutable?style=for-the-badge)](https://www.npmjs.com/package/react-hook-usemutable) [![GitHub Repo stars](https://img.shields.io/github/stars/donnikitos/react-hook-useMutable?label=GitHub%20Stars&style=for-the-badge)](https://github.com/donnikitos/react-hook-useMutable) [![GitHub](https://img.shields.io/github/license/donnikitos/react-hook-useMutable?color=blue&style=for-the-badge)](https://github.com/donnikitos/react-hook-useMutable/blob/master/LICENSE)
+[![GitHub last commit](https://img.shields.io/github/last-commit/donnikitos/react-hook-useMutable?style=for-the-badge)](https://github.com/donnikitos/react-hook-useMutable) [![Issues](https://img.shields.io/github/issues/donnikitos/react-hook-useMutable?style=for-the-badge)](https://github.com/donnikitos/react-hook-useMutable/issues)
 
-[![npm](https://img.shields.io/npm/dt/react-hook-usemutable?style=for-the-badge)](https://www.npmjs.com/package/react-hook-usemutable) ![GitHub Repo stars](https://img.shields.io/github/stars/react-hook-useMutable?label=GitHub%20Stars&style=for-the-badge) [![GitHub](https://img.shields.io/github/license/react-hook-useMutable?color=blue&style=for-the-badge)](https://github.com/react-hook-useMutable/blob/master/LICENSE)
-![GitHub last commit](https://img.shields.io/github/last-commit/react-hook-useMutable?style=for-the-badge) [![Issues](https://img.shields.io/github/issues/react-hook-useMutable?style=for-the-badge)](https://github.com/react-hook-useMutable/issues)
+A utility to simplify the use of the [@mutableJS/core](https://www.npmjs.com/package/@mutablejs/core) reactivity with React.
 
 ## Installation
 
