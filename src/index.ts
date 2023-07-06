@@ -9,7 +9,18 @@ export function useMutable<T>(mutable: Mutable<T>) {
 	const [value, setValue] = useState<T>(mutable.value);
 
 	useEffect(() => {
-		mutableFn((v: T) => setValue(v))(mutable as any);
+		mutableFn((v: any) => {
+			const type =
+				typeof v === 'object' && v
+					? Array.isArray(v)
+						? 'array'
+						: 'object'
+					: 'misc';
+
+			setValue(
+				type === 'array' ? [...v] : type === 'object' ? { ...v } : v,
+			);
+		})(mutable as any);
 	}, []);
 
 	return value;
