@@ -1,6 +1,6 @@
 {
 	"name": "react-hook-usemutable",
-	"version": "0.5.5",
+	"version": "1.0.0",
 	"description": "Utilities to use the mutableJS library with React",
 	"keywords": [
 		"react",
