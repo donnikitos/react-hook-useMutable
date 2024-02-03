@@ -21,28 +21,36 @@
 	"files": [
 		"dist"
 	],
-	"main": "./dist/index.umd.js",
+	"type": "module",
+	"main": "./dist/index.mjs",
 	"module": "./dist/index.mjs",
 	"types": "./dist/index.d.ts",
 	"exports": {
 		".": {
-			"import": "./dist/index.mjs",
-			"require": "./dist/index.umd.js"
+			"require": {
+				"types": "./dist/index.d.cts",
+				"default": "./dist/index.cjs"
+			},
+			"import": {
+				"types": "./dist/index.d.mts",
+				"default": "./dist/index.mjs"
+			},
+			"types": "./dist/index.d.ts",
+			"default": "./dist/index.mjs"
 		}
 	},
 	"scripts": {
-		"start": "npx vite",
-		"build": "npx vite build && npx tsc --emitDeclarationOnly",
+		"build": "npx unbuild",
 		"prepack": "npm run build"
 	},
 	"author": "Nikita 'donnikitos' Nitichevski <me@donnikitos.com> (https://donnikitos.com/)",
 	"license": "MIT",
 	"devDependencies": {
-		"@mutablejs/core": "^0.2.0",
-		"@types/node": "^20.3.2",
-		"@types/react": "^18.2.14",
-		"typescript": "^5.1.6",
-		"vite": "^4.3.9"
+		"@mutablejs/core": "^0.2.2",
+		"@types/node": "^20.11.16",
+		"@types/react": "^18.2.52",
+		"typescript": "^5.3.3",
+		"unbuild": "^2.0.0"
 	},
 	"peerDependencies": {
 		"@mutablejs/core": "^0.2.0",
