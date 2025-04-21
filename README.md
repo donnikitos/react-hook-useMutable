@@ -5,6 +5,11 @@
 
 A utility to simplify the use of the [@mutableJS/core](https://www.npmjs.com/package/@mutablejs/core) reactivity with React.
 
+## Why?
+
+`react-hook-usemutable` acts as the bridge between the reactivity system of `@mutablejs/core` and the React component lifecycle.
+With this utility you will be able to use React in island-style architectures similar to those found in Astro...
+
 ## Installation
 
 Install with **npm**:
